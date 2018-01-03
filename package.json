@@ -1,0 +1,22 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "login",
+  "main": "app.js",
+  "scripts": {
+    "start": "SET \"NODE_ENV=dev\" && node app.js",
+    "test": "SET \"NODE_ENV=test\" && node app.js"
+  },
+  "author": "arjun",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "lodash": "^4.17.4",
+    "mongodb": "^3.0.0-rc0",
+    "mongoose": "^4.13.7",
+    "validator": "^9.2.0"
+  }
+}
